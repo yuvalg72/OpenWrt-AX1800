@@ -1,3 +1,15 @@
+## Fork provenance
+
+This repository is a fork of [haiibo/OpenWrt](https://github.com/haiibo/OpenWrt). Original inherited authorship belongs to the upstream project and its contributors.
+
+- **Local purpose:** Maintain an IPQ60xx/AX1800-focused OpenWrt build configuration and workflow set derived from the broader upstream build repository.
+- **Local changes:** The verified direct-parent comparison on 05/10/2026 was **138 commits ahead / 5 behind**. The current fork removes many upstream ARM/Raspberry Pi/x86 build workflows and configurations, introduces IPQ60xx-specific workflows/configs and feed definitions, adds `build.sh`, and substantially narrows the README toward IPQ60xx firmware builds.
+- **Sync model:** Intentionally diverged device-focused fork. Upstream synchronization requires explicit review and cannot be assumed automatically.
+- **License and attribution:** The repository retains an MIT `LICENSE` with the inherited P3TERX copyright notice. That file remains authoritative for the inherited licensed material.
+- **Links and project claims:** Upstream badges, build/release links, source references, and acknowledgements below refer to their named upstream projects. This fork does not claim those upstream achievements as first-party work.
+
+---
+
 <div align="center">
 <img width="768" src="https://cdn.jsdelivr.net/gh/haiibo/OpenWrt/images/openwrt.png"/>
 <h1>OpenWrt — IPQ60XX云编译</h1>
